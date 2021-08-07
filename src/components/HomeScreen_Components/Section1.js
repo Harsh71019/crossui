@@ -3,9 +3,9 @@ import Bitcoin from "../../images/BitcoinTop.png";
 const Section1 = () => {
   return (
     <section className="mb-5 mt-2 rounded">
-      <div className="home-image-top d-flex align-items-center">
-        <div className="row p-md-5 p-xs-0 w-100 px-3">
-          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+      <div className="home-image-top d-flex align-items-center px-3">
+        <div className="row p-md-5 w-100">
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center p-3">
             <div>
               <p className="homescreen-section-1-para">
                 <span className="generic-title-para-blue">Invest in</span>
