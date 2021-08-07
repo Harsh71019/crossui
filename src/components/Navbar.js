@@ -20,7 +20,10 @@ const Navbar = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div
+        className="collapse navbar-collapse main-nav-menu"
+        id="navbarSupportedContent"
+      >
         <ul className="navbar-nav nav-item-left">
           {/* <li className="nav-item active">
             <a className="nav-link" href="#">
@@ -28,7 +31,7 @@ const Navbar = () => {
             </a>
           </li> */}
 
-          <div class="dropdown">
+          <div class="dropdown dropdown-nav-main">
             <button
               class="nav-link-button"
               href="#"
@@ -68,7 +71,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div class="dropdown">
+          <div class="dropdown dropdown-nav-main">
             <button
               class="nav-link-button"
               href="#"
@@ -104,7 +107,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div class="dropdown">
+          <div class="dropdown dropdown-nav-main">
             <button
               class="nav-link-button"
               href="#"
@@ -140,7 +143,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div class="dropdown">
+          <div class="dropdown dropdown-nav-main">
             <button
               class="nav-link-button"
               href="#"
@@ -176,7 +179,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div class="dropdown">
+          <div class="dropdown dropdown-nav-main">
             <button
               class="nav-link-button"
               href="#"
@@ -212,7 +215,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div class="dropdown">
+          <div class="dropdown dropdown-nav-main">
             <button
               class="nav-link-button"
               href="#"
@@ -250,9 +253,11 @@ const Navbar = () => {
           </div>
         </ul>
 
-        <button className="nav-top-button" type="submit">
-          Login/Register
-        </button>
+        <div className="button-top-nav">
+          <button className="nav-top-button" type="submit">
+            Login/Register
+          </button>
+        </div>
       </div>
     </nav>
   );
