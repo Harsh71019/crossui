@@ -28,8 +28,8 @@ const Section2 = () => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active carousel-bg-1">
-            <div className="row">
-              <div className="col-sm-12 col-md-6 py-5  d-flex align-items-center justify-content-center">
+            <div className="row p-3">
+              <div className="col-sm-12 col-md-6 pb-5 d-flex align-items-center justify-content-center ">
                 <div className="card shadow-lg card-in-carousel-s2">
                   <div className="card-body">
                     <p className="text-blue-section7 mb-0">23 March</p>
@@ -88,7 +88,7 @@ const Section2 = () => {
           </div>
           <div class="carousel-item carousel-bg-2">
             <div className="row">
-              <div className="col-sm-12 col-md-6 py-5  d-flex align-items-center justify-content-center">
+              <div className="col-sm-12 col-md-6 py-5 d-flex align-items-center justify-content-center">
                 <div className="card shadow-lg card-in-carousel-s2">
                   <div className="card-body">
                     <p className="text-blue-section7 mb-0">23 March</p>

@@ -5,7 +5,7 @@ import ArrowDown from "../images/ArrowDown.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light nav-custom-classes py-3">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand px-2" href="#">
         <img src={Logo} alt="" className="logo-nav-main" />
       </a>
       <button

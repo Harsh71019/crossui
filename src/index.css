@@ -228,7 +228,8 @@ code {
 }
 
 .card-in-carousel-s2 {
-  width: 70%;
+  border: none;
+  width: 400px;
 }
 
 /*--------------------------------------------------------------------------End Section 2  ----------------------------------------------------------------------*/
@@ -524,6 +525,10 @@ code {
   width: 100%;
 }
 
+.carousel-indicators {
+  bottom: -50px;
+}
+
 .carousel .carousel-indicators button {
   width: 10px;
   height: 10px;
@@ -681,10 +686,6 @@ code {
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 70px;
-  padding-bottom: 70px;
 }
 
 .card-text-section4-header {
@@ -897,6 +898,30 @@ code {
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
+  /* Start of Reusable Styles */
+  .generic-title-heading {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  /* Section 3 */
+  .section-3-heading1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #172253;
+  }
+  .section-3-heading1 span {
+    background: #fff;
+    padding: 0 30px;
+  }
+  /* End of Section 3 */
+
+  /* End of reusable Styles */
   .col-footer {
     margin: 1% 0 1% 0%;
   }
@@ -927,6 +952,13 @@ code {
   }
   /*End Section 1 */
 
+  /* Section 2 */
+
+  .card-in-carousel-s2 {
+    width: 100%;
+  }
+
+  /*End Section 2 */
   .home-image-top {
     width: 100%;
   }

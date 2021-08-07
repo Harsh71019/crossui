@@ -2,9 +2,9 @@ import React from "react";
 import Bitcoin from "../../images/BitcoinTop.png";
 const Section1 = () => {
   return (
-    <section className="mb-5 rounded">
+    <section className="mb-5 mt-2 rounded">
       <div className="home-image-top d-flex align-items-center">
-        <div className="row p-md-5 p-xs-0 w-100">
+        <div className="row p-md-5 p-xs-0 w-100 px-3">
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
             <div>
               <p className="homescreen-section-1-para">
@@ -33,11 +33,11 @@ const Section1 = () => {
           </div>
         </div>
       </div>
-      <div className="row px-5 row-card-top-section-1">
+      <div className="row px-md-5 px-4 row-card-top-section-1">
         <div className="card card-top-section1-homepage shadow-lg rounded">
           <div className="card-body">
             <div class="section-footer group-footer-footer">
-              <div class="col-footer span_1_of_5-footer  p-2">
+              <div class="col-footer span_1_of_5-footer p-2">
                 <div className="d-flex justify-content-between">
                   <p className="currency-text-card-section1">Btc</p>
                   <p className="currency-rate-card-section1"> 0.42</p>

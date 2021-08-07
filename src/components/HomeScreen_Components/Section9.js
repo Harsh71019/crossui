@@ -25,8 +25,8 @@ const Section9 = () => {
   };
 
   return (
-    <section className="section9-homescreen px-5  mb-5">
-      <p className="homescreen-section-1-para">
+    <section className="section9-homescreen px-5 mb-5">
+      <p className="homescreen-section-1-para pt-5">
         <span className="generic-title-para-blue">General</span>
         <span className="generic-title-para-red"> Queries</span>
       </p>
@@ -247,7 +247,7 @@ const Section9 = () => {
           </div>
         </div>
         {/* end 4 */}
-        <div className="accordian-container mt-5">
+        <div className="accordian-container mt-5 pb-5">
           <div id="accordion my-5">
             <div class="card accordain-tag-1-c ">
               <div

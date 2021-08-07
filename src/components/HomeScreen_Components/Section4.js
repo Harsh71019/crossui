@@ -3,8 +3,8 @@ import Section4bg from "../../images/section4bg.png";
 
 const Section4 = () => {
   return (
-    <section className="py-5">
-      <div className="image-section-4">
+    <section className="py-3">
+      <div className="image-section-4 px-3 py-3">
         <div className="row d-flex align-items-center">
           <div className="col-md-6 col-sm-12">
             <p className="generic-title-heading text-white">
